@@ -1028,6 +1028,14 @@ form p label {
     margin-left: 5px;
 }
 
+select.jush-autocomplete option {
+    color: var(--color-white);
+}
+
+select.jush-autocomplete option:checked {
+    color: var(--color-black);
+}
+
 .footer {
     border-top: none;
     margin-right: calc(-1 * var(--ui-content-spacing));
